@@ -17,7 +17,7 @@
 
 class CDrawView;
 
-enum DrawShape
+enum DrawShape // enum ¼±¾ð 
 {
 	selection,
 	line,
@@ -86,7 +86,7 @@ public:
 	CPolyTool();
 
 // Implementation
-	virtual void OnLButtonDown(CDrawView* pView, UINT nFlags, const CPoint& point);
+	virtual void OnLButtonDown(CDrawView* pView, UINT nFlags, const CPoint& point); 
 	virtual void OnLButtonDblClk(CDrawView* pView, UINT nFlags, const CPoint& point);
 	virtual void OnLButtonUp(CDrawView* pView, UINT nFlags, const CPoint& point);
 	virtual void OnMouseMove(CDrawView* pView, UINT nFlags, const CPoint& point);

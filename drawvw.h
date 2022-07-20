@@ -1,3 +1,5 @@
+
+// 이거는 초기본
 // drawvw.h : interface of the CDrawView class
 //
 // This is a part of the Microsoft Foundation Classes C++ library.
@@ -91,9 +93,9 @@ public:
 
 	static CLIPFORMAT m_cfDraw; // custom clipboard format
 
-	CDrawObjList m_selection;
-	BOOL m_bGrid;
-	COLORREF m_gridColor;
+	CDrawObjList m_selection;  
+	BOOL m_bGrid; // 보조선 넣을지 말지
+	COLORREF m_gridColor;  // 보조선 색 
 	BOOL m_bActive; // is the view active?
 
 protected:
